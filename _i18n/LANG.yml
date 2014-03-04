@@ -1,0 +1,54 @@
+ru:
+  Blog: Новости
+  About: О проекте
+  Screenshots: Скриншоты
+  Games: Игры
+  Forum: Форум
+  Doc: Документация
+  Code: Код
+  Download: Скачать
+  Donate: Поддержать
+  instead-others: Все остальные пакеты
+  instead-win: Установщик INSTEAD для Windows
+  instead-launcher-win: Установщик INSTEAD launcher для Windows
+  instead-wince: Пакет для Windows CE
+  instead-android-market: INSTEAD на Android Market
+  instead-android: INSTEAD для Android без рекламы Market
+  instead-kit-win: INSTEAD Kit (INSTEAD + launcher) архив
+  instead-sources: Пакет с исходным кодом INSTEAD
+  instead-launcher-sources: Пакет с исходным кодом INSTEAD launcher
+  instead-gentoo: EBUILD для Gentoo
+  instead-freebsd: Порт для FreeBSD
+  instead-debian: Пакет для Debian
+  instead-ubuntu: Пакеты для Ubuntu
+  instead-arch: INSTEAD для Arch Linux
+  instead-s60: Версия для S60
+  instead-osx: Пакет для OS X
+  Til next time,: До встречи,
+und:
+  Blog: Blog
+  About: About
+  Screenshots: Screenshots
+  Games: Games
+  Forum: Forum
+  Doc: Docs
+  Code: Code
+  Download: Download
+  Donate: Donate
+  instead-others: Others packages
+  instead-win: INSTEAD for Windows
+  instead-launcher-win: INSTEAD launcher for Windows
+  instead-wince: INSTEAD for Windows CE
+  instead-android-market: INSTEAD on Android Market
+  instead-android: INSTEAD without Ads
+  instead-kit-win: INSTEAD Kit (INSTEAD + INSTEAD launcher)
+  instead-sources: INSTEAD sources
+  instead-launcher-sources: INSTEAD launcher sources
+  instead-gentoo: EBUILD for Gentoo
+  instead-freebsd: FreeBSD port
+  instead-debian: Debian package
+  instead-arch: INSTEAD for Arch Linux
+  instead-ubuntu: Ubuntu packages
+  instead-s60: INSTEAD for S60
+  instead-osx: INSTEAD for OS X
+  Til next time,: Til next time, 

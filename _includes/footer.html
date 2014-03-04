@@ -1,0 +1,9 @@
+<div class="block" id="menubottom">
+  {% for link in site.links %}
+    <a target="{% if link.external %}_blank{% else %}_top{% endif %}" class="main" href="{% if page.lang != 'und' and link.external != true %}/{{ page.lang }}{% endif %}{{ link.url }}">{%t link.name %}</a>
+  {% endfor %}
+</div>
+
+<footer>
+  <a href="jekyllrb.com" class="muted">built with Jekyll</a>
+</footer>

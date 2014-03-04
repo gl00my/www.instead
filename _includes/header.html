@@ -1,0 +1,45 @@
+<div id="header">
+{% if page.lang == 'ru' %}
+<a id="go-back-home" href="/ru">
+{% else %}
+<a id="go-back-home" href="/index.php">
+{% endif %}
+<h1>INSTEAD</h1>
+<h2>Simple Text Adventure, The Interpreter </h2>
+<h3>For Unix and Windows</h3>
+</a>
+
+
+<div id="top-block">
+<!--
+<div id="top-bar">
+ <a href="/"><img src="/images/gb.png"></a> <a href="/ru"><img src="/images/ru.png"></a>
+</div>
+-->
+
+
+<div id="search-box">
+<script>
+  (function() {
+    var cx = '006266150489105462413:ef0ineqy-pk';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+</div>
+
+<div id="social">
+<a class='donate-link' href="{% if page.lang != 'und' and link.external != true %}/{{ page.lang }}{% endif %}/donate/">{%t Donate %}</a>
+<a class='download-link' href="{% if page.lang != 'und' and link.external != true %}/{{ page.lang }}{% endif %}/download/">{%t Download %}</a>
+</div>
+
+</div> <!-- top block -->
+
+</div> <!-- header -->
+
