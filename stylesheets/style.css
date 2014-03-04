@@ -27,6 +27,7 @@ img {
     padding: 16px 0px 8px 90px;
 //    margin: 0px 0px 15px -4px;
 //    height: 90px;
+    float: left;
     max-width: 450px;
 }
 
