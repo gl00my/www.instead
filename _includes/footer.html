@@ -2,6 +2,8 @@
   {% for link in site.links %}
     <a target="{% if link.external %}_blank{% else %}_top{% endif %}" class="main" href="{% if page.lang != 'und' and link.external != true %}/{{ page.lang }}{% endif %}{{ link.url }}">{%t link.name %}</a>
   {% endfor %}
+  <a target="_top" class="main" href="{% if page.lang != 'und' and link.external != true %}/{{ page.lang }}{% endif %}/archive">{%t Archive %}</a>
+
 </div>
 
 <footer>
