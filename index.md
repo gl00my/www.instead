@@ -8,7 +8,9 @@ layout: index
 	<span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
 	{{ post.content | split:'<!--break-->' | first }}
 	{% if post.content contains '<!--break-->' %}
-	<a href="{{ post.url }}">read more</a>
+		<a href="{{ post.url }}">read more</a>
+	{% else %}
+		 {% include signoff.html %}
 	{% endif %}
 	<hr>
 	{% endfor %}
