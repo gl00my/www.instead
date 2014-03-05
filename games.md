@@ -21,7 +21,7 @@ and press «…» button. Then select .zip file and press open.
 
 ## Games repositories
 
-Some gmaes can be found here.
+Some games can be found here.
 {% games http://instead-launcher.googlecode.com/svn/pool/game_list.xml %}
 
 ## Unofficial games repository
