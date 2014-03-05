@@ -2,5 +2,9 @@
 <p>
 {%t Til next time, %}<br/>
   {{ site.signoff }}
+{% if page.lang == 'ru' %}
+  <span class="muted">{{ page.date | date: "в %H:%M" }}</span>
+{% else %}
   <span class="muted">{{ page.date | date: "at %H:%M" }}</span>
+{% endif %}
 </p>
