@@ -531,7 +531,7 @@ a.menu:hover {
 #top-bar a {
 }
 #top-bar a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 #header {
     display: inline-block;
