@@ -170,8 +170,9 @@ a, .as-link {
   -o-transition: color 0.3s;
   transition: color 0.3s; }
   a.main, a:hover, .as-link.main, .as-link:hover {
-//    color: #1d5884;
-    color: rgb(204, 52, 45);
+    color: #1d5884;
+    text-decoration: underline;
+//    color: rgb(204, 52, 45);
 /*    background-image: url(/images/line.png); 
     background-repeat: repeat-x;
     background-position: left bottom;*/ } 
@@ -410,16 +411,19 @@ a.menu:hover {
     color: rgb(255, 255, 255);
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+    text-decoration: none;
 }
 
 #menubottom a {
+    text-decoration: none;
     color: rgb(115,115,115);
     padding: 0px 8px 0px 8px;
 }
 
 #menubottom a:hover {
 //    color: rgb(34, 102, 153);
-    color: rgb(204, 52, 45);
+    color: rgb(115,115,115);
+    text-decoration: underline;
 }
 
 #menu a.right {
