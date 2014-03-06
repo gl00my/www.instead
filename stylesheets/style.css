@@ -170,7 +170,8 @@ a, .as-link {
   -o-transition: color 0.3s;
   transition: color 0.3s; }
   a.main, a:hover, .as-link.main, .as-link:hover {
-    color: #1d5884;
+//    color: #1d5884;
+    color: rgb(204, 52, 45);
 /*    background-image: url(/images/line.png); 
     background-repeat: repeat-x;
     background-position: left bottom;*/ } 
@@ -417,7 +418,8 @@ a.menu:hover {
 }
 
 #menubottom a:hover {
-    color: rgb(34, 102, 153);
+//    color: rgb(34, 102, 153);
+    color: rgb(204, 52, 45);
 }
 
 #menu a.right {
