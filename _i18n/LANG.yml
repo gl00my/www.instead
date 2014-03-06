@@ -27,6 +27,7 @@ ru:
   instead-s60: Версия для S60
   instead-osx: Пакет для OS X
   Til next time,: До встречи,
+  discuss: Обсудить
 und:
   Blog: Blog
   About: About
@@ -39,7 +40,7 @@ und:
   Donate: Donate
   Archive: Archive
   read more: read more
-
+  discuss: Discuss
   instead-others: Others packages
   instead-win: INSTEAD for Windows
   instead-launcher-win: INSTEAD launcher for Windows

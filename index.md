@@ -10,7 +10,10 @@ layout: index
 	{% if post.content contains '<!--break-->' %}
 		<a href="{{ post.url }}">read more</a>
 	{% else %}
-		 {% include signoff.html %}
+		{% include signoff.html %}
+		{% if post.disqus == 'y' %}
+		<a href="{{ post.url }}">{%t discuss %}</a>
+		{% endif %}
 	{% endif %}
 	<hr>
 	{% endfor %}

@@ -11,6 +11,9 @@ layout: index
 		<a href="{{ post.url }}">{%t read more %}</a>
 	{% else %}
 		{% include signoff.html %}
+		{% if post.disqus == 'y' %}
+		<a href="{{ post.url }}">{%t discuss %}</a>
+		{% endif %}
 	{% endif %}
 	<hr>
 	{% endfor %}
