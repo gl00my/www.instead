@@ -11,16 +11,16 @@ links:
   - name:         Blog
     url:          /
   - name:         About
-    url:          /about
+    url:          /about/
   - name:         Screenshots
-    url:          /screenshots
+    url:          /screenshots/
   - name:         Games
-    url:          /games
+    url:          /games/
   - name:         Forum
-    url:          /talk
+    url:          /talk/
     external:     true
   - name:         Doc
-    url:          /doc
+    url:          /doc/
   - name:         Code
     url:          http://github.com/instead-hub/instead
     external:     true

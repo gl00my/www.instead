@@ -18,3 +18,7 @@ layout: index
 	<hr>
 	{% endfor %}
 </ul>
+
+<script type="text/javascript">
+	document.cookie="lang=en";
+</script>
