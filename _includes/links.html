@@ -1,15 +1,24 @@
-
 <div class="block" id="menu">
 {% if page.lang == 'ru' %}
-	<a class="flag" href="/index.html"><img alt="en" src="/images/gb.png"></a> <a class="flag" href="/ru"><img alt="ru" src="/images/ru.png"></a>
+	<a id="en-lang" class="flag" href="/index.html"><img alt="en" src="/images/gb.png"></a> <a class="flag" id="ru-lang" href="/ru"><img alt="ru" src="/images/ru.png"></a>
 {% else %}
-	<a class="flag" href="/ru"><img alt="ru" src="/images/ru.png"></a> <a class="flag" href="/index.html"><img alt="en" src="/images/gb.png"></a>
+	<a id="ru-lang" class="flag" href="/ru"><img alt="ru" src="/images/ru.png"></a> <a class="flag" id="en-lang" href="/index.html"><img alt="en" src="/images/gb.png"></a>
 {% endif %}
   {% for link in site.links %}
     <a class="menu" target="{% if link.external %}_top{% else %}_top{% endif %}" href="{% if page.lang != 'und' and link.external != true %}/{{ page.lang }}{% endif %}{{ link.url }}">{%t link.name %}</a>
   {% endfor %}
 </div>
 
+<script type="text/javascript">
+document.getElementById('ru-lang').onclick = function()
+{
+	document.cookie="lang=ru";
+}
+document.getElementById('en-lang').onclick = function()
+{
+	document.cookie="lang=en";
+}
+</script>
 
 
 <!-- <a class="right" href="xxx">rus</a> -->

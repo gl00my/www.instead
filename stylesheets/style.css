@@ -548,7 +548,7 @@ a.menu:hover {
 #header h2 {
     margin: 5px 0px 0px;
     font-size: 14px;
-    text-transform: uppercase;
+//    text-transform: uppercase;
     letter-spacing: 0.1em;
     color: #585450;
 }

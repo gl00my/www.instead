@@ -38,7 +38,7 @@ title: О проекте
 
 Вы можете связаться с автором INSTEAD (Петром Косых) по почте: gl00my [at] mail.ru
 
-Jabber конференция разработчиков: instead@conference.jabber.ru
+Jabber конференция разработчиков: [instead@conference.jabber.ru](http://chat.andreymal.org/?join=instead@conference.jabber.ru)
 
 [wiki]: http://ru.wikipedia.org/wiki/INSTEAD "Статья INSTEAD на Wikipedia"
 
