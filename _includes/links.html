@@ -5,9 +5,15 @@
 	<a id="ru-lang" class="flag" href="/ru"><img alt="ru" src="/images/ru.png"></a> <a class="flag" id="en-lang" href="/index.html"><img alt="en" src="/images/gb.png"></a>
 {% endif %}
   {% for link in site.links %}
-    {% if page.url == link.url %}
+    {% capture rlink %}/{{page.lang | replace: 'und',''}}{{link.url}}/{% endcapture %}
+    {% capture rlink %}{{rlink | replace: '//','/' | replace: '//','/'}}{% endcapture %}
+    {% capture llink %}{{page.url | replace: '//','/' | replace: 'index.html', ''}}{% endcapture %}
+    {% if llink == rlink %}
+	{% assign class = 'menu-active' %}
+    {% else %}
+	{% assign class = 'menu' %}
     {% endif %}
-    <a class="menu" target="{% if link.external %}_top{% else %}_top{% endif %}" href="{% if page.lang != 'und' and link.external != true %}/{{ page.lang }}{% endif %}{{ link.url }}">{%t link.name %}</a>
+    <a class="{{ class }}" target="{% if link.external %}_top{% else %}_top{% endif %}" href="{% if page.lang != 'und' and link.external != true %}/{{ page.lang }}{% endif %}{{ link.url }}">{%t link.name %}</a>
   {% endfor %}
 </div>
 <!-- <a class="right" href="xxx">rus</a> -->

@@ -399,14 +399,13 @@ a.flag {
     padding: 0px 4px 0px 4px;
 }
 
-a.menu {
+a.menu, a.menu-active {
     color: rgb(115,115,115);
     padding: 0px 8px 0px 8px;
     font-weight: bold;
 }
 
-
-a.menu:hover {
+a.menu-active, a.menu:hover  {
     background-color: #269; //rgb(34, 102, 153);
     color: rgb(255, 255, 255);
     border-bottom-left-radius: 6px;
