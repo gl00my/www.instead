@@ -4,9 +4,9 @@ $lc = ""; // Initialize the language code variable
 // If it is set, we cut the first two characters from that string
 if(isset($_COOKIE["lang"])) {
     if ($_COOKIE["lang"] == 'ru')
-		header("location: ru/index.html");
+		header("location: /ru/index.html");
     else 
-		header("location: index.html");
+		header("location: /index.html");
     exit();
 }
 if(isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])){
@@ -14,10 +14,10 @@ if(isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])){
 }
 // Now we simply evaluate that variable to detect specific languages
 if($lc == "ru"){
-    header("location: ru/index.html");
+    header("location: /ru/index.html");
     exit();
 } else {
-    header("location: index.html");
+    header("location: /index.html");
     exit();
 }
 ?>

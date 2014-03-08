@@ -3,7 +3,11 @@
 <link href='/stylesheets/style.css' rel='stylesheet' type='text/css' />
 <link href='/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
 <link href='/stylesheets/responsive.css' rel='stylesheet' type='text/css' />
+{% if page.lang == 'ru' %}
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/ru/feed.xml">
+{% else %}
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
+{% endif %}
 <!-- - -->
 <script src='/javascripts/jquery.js' type='text/javascript'></script>
 <script src='/javascripts/pd.js' type='text/javascript'></script>
