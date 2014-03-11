@@ -6,15 +6,8 @@ layout: index
 	{% for post in site.tags.und limit:10 %}
 	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	<span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-	{{ post.content | split:'<!--break-->' | first }}
-	{% if post.content contains '<!--break-->' %}
-		<a href="{{ post.url }}">read more</a>
-	{% else %}
-		{% include signoff.html %}
-		{% if post.disqus == 'y' %}
-		<a href="{{ post.url }}">{%t discuss %}</a>
-		{% endif %}
-	{% endif %}
+	{{ post.excerpt }}
+	<a href="{{ post.url }}">read more</a>
 	<hr>
 	{% endfor %}
 </ul>
