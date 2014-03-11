@@ -1,8 +1,8 @@
 <div class="block" id="menu">
 {% if page.lang == 'ru' %}
-	<a id="en-lang" class="flag" href="{{page.url | replace: '/ru/', '' | replace: 'index.html', '/index.html'}} "><img alt="en" src="/images/gb.png"></a> <a class="flag" id="ru-lang" href="/ru/"><img alt="ru" src="/images/ru.png"></a>
+	<a id="en-lang" class="flag" href="/index.html"><img alt="en" src="/images/gb.png"></a> <a class="flag" id="ru-lang" href="/ru"><img alt="ru" src="/images/ru.png"></a>
 {% else %}
-	<a id="ru-lang" class="flag" href="/ru{{page.url | replace: '/ru/, ''}}"><img alt="ru" src="/images/ru.png"></a> <a class="flag" id="en-lang" href="/index.html"><img alt="en" src="/images/gb.png"></a>
+	<a id="ru-lang" class="flag" href="/ru"><img alt="ru" src="/images/ru.png"></a> <a class="flag" id="en-lang" href="/index.html"><img alt="en" src="/images/gb.png"></a>
 {% endif %}
   {% for link in site.links %}
     {% capture rlink %}/{{page.lang | replace: 'und',''}}{{link.url}}/{% endcapture %}
