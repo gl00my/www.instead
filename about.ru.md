@@ -50,3 +50,5 @@ Jabber конференция разработчиков: [instead@conference.ja
 2. [Подкаст 2](/podcasts/podcast2.ogg)
 3. [Подкаст 3](/podcasts/podcast3.ogg)
 4. [Подкаст 4](/podcasts/podcast_04.ogg)
+
+И прочитать статью о том, [как все начиналось](http://instead.syscall.ru/ru/2010/05/09/history/).

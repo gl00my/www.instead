@@ -234,7 +234,8 @@ ul.posts, ul.posts li {
   font-size: 14px;
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none; 
+}
 ul.posts li {
   margin-bottom: 20px; }
 ul.posts .datetime {
@@ -254,12 +255,18 @@ section.post {
   margin: 0 -60px;
   text-align: left;
   border-top: 0;
-  padding: 0; }
-  section.post > * {
-    padding: 0 60px; }
-  section.post ul ul, section.post ul ol, section.post ol ul, section.post ol ol {
+  padding: 0; 
+}
+section.post > * {
+    padding: 0 60px; 
+}
+section.post ul ul, section.post ul ol, section.post ol ul, section.post ol ol {
     margin-left: 20px;
-    padding: 0; }
+    padding: 0; 
+}
+section.post ul, section.post ol {
+  list-style-position: inside;
+}
   section.post h1 {
     text-transform: uppercase;
     text-align: center;
