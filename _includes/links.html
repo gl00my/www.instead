@@ -8,7 +8,7 @@
     {% capture rlink %}/{{page.lang | replace: 'und',''}}{{link.url}}/{% endcapture %}
     {% capture rlink %}{{rlink | replace: '//','/' | replace: '//','/'}}{% endcapture %}
     {% capture llink %}{{page.url | replace: '//','/' | replace: 'index.html', ''}}{% endcapture %}
-    {% if llink == rlink %}
+    {% if llink == rlinkx %}
 	{% assign class = 'menu-active' %}
     {% else %}
 	{% assign class = 'menu' %}

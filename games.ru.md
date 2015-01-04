@@ -27,9 +27,9 @@ title: Игры
 
 {% games http://instead-launcher.googlecode.com/svn/pool/game_list.xml %}
 
-## Неофициальный репозиторий INSTEAD
+## Репозиторий Instead • games
 
-Неофициальный репозиторий INSTEAD содержит множество игр. Вы можете ознакомится
+Репозиторий Instead • games содержит множество игр. Вы можете ознакомится
 с их описанием на [http://instead-games.ru](http://instead-games.ru) или кликнув на
 название игры.
 

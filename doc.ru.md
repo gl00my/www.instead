@@ -15,7 +15,7 @@ zip или idf.
 * [WIKI](http://instead.syscall.ru/wiki/ru/start)
 * [Документация для разработчиков игр (от автора INSTEAD)](http://instead.syscall.ru/wiki/ru/gamedev/documentation)
 * [Документация для разработчиков игр (pdf)](http://sourceforge.net/projects/instead/files/instead/docs/instead-manual.pdf/download)
-* [Описание модулей](http://sourceforge.net/projects/instead/files/instead/docs/instead-modules.pdf/download)
+* [Описание модулей (pdf)](http://sourceforge.net/projects/instead/files/instead/docs/instead-modules.pdf/download)
 * [Вводный курс на ifiction.ru](http://forum.ifiction.ru/viewtopic.php?id=1867)
 * [О том как быстро начать писать игру](http://instead.syscall.ru/wiki/ru/gamedev/quickstart)
 

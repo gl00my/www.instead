@@ -10,7 +10,7 @@ title: Поддержи проект!
 это будет приятной поддержкой.
 
 <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
-<div class="yashare-auto-init" data-yashareLink="{{ site.url }}/about" data-yashareTitle="INSTEAD" data-yashareDescription="текстографические приключенческие игры" data-yashareL10n="ru" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,gplus" data-yashareTheme="counter"></div>
+<div class="yashare-auto-init" data-yashareLink="{{ site.url }}/ru/about" data-yashareTitle="INSTEAD" data-yashareDescription="текстографические приключенческие игры" data-yashareL10n="ru" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,gplus" data-yashareTheme="counter"></div>
 
 Вы можете также нажать на кнопку +1. <g:plusone size="medium" href="http://instead.syscall.ru"></g:plusone>
 

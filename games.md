@@ -24,9 +24,9 @@ and press «…» button. Then select .zip file and press open.
 Some games can be found here.
 {% games http://instead-launcher.googlecode.com/svn/pool/game_list.xml %}
 
-## Unofficial games repository
+## Instead • games repository
 
-Here are a lot of games from Unofficial repository. You may look on screenshots by
+Here are a lot of games from Instead • games repository. You may look on screenshots by
 pressing on they titles.
 
 {% games http://instead-games.ru/xml.php %}

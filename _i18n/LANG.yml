@@ -24,8 +24,10 @@ ru:
   instead-debian: Пакет для Debian
   instead-ubuntu: Пакеты для Ubuntu
   instead-arch: INSTEAD для Arch Linux
+  instead-slackware: INSTEAD для Slackware
   instead-s60: Версия для S60
   instead-osx: Пакет для OS X
+  instead-ios: Пакет для iOS (для jailbreak устройств)
   Til next time,: До встречи,
   discuss: Обсудить
 und:
@@ -54,7 +56,9 @@ und:
   instead-freebsd: FreeBSD port
   instead-debian: Debian package
   instead-arch: INSTEAD for Arch Linux
+  instead-slackware: INSTEAD for Slackware
   instead-ubuntu: Ubuntu packages
   instead-s60: INSTEAD for S60
   instead-osx: INSTEAD for OS X
+  instead-ios: INSTEAD for iOS (for jailbroken devices)
   Til next time,: Til next time, 
