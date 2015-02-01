@@ -11,5 +11,5 @@ You also can download the game: Dive into INSTEAD (for developers) (on [games](/
 Some resources for Developers:
 
 * [WIKI](http://instead.syscall.ru/wiki/en/start)
-* [English documentation (bit outdated)](http://instead.syscall.ru/wiki/en/gamedev/documentation)
+* [English documentation (outdated)](http://instead.syscall.ru/wiki/en/gamedev/documentation)
 * [Russian documentation](http://instead.syscall.ru/wiki/ru/gamedev/documentation)
