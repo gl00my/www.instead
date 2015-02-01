@@ -84,7 +84,7 @@ INSTEAD is free and opensource software. Sources are covered by MIT license.
 <tr>
 <td><img src="/images/freebsd_logo.png"/></td>
 <td><a href="http://svnweb.freebsd.org/ports/head/games/instead/">{%t instead-freebsd %}</a></td>
-<td>2.2.0</td>
+<td>2.2.1</td>
 </tr>
 
 <tr>
