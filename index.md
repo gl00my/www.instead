@@ -11,3 +11,5 @@ layout: index
 	<hr>
 	{% endfor %}
 </ul>
+
+<h2><a target="_top" href="{% if page.lang != 'und' and link.external != true %}/{{ page.lang }}{% endif %}/archive">{%t Archive %}...</a></h2>

@@ -502,7 +502,7 @@ a.menu-active, a.menu:hover  {
     border-radius: 3px;
 }
 
-#social, #search-box {
+#buttons, #search-box {
     padding: 0px;
 //    float: right;
     text-align: right;
