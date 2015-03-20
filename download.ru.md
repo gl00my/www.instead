@@ -8,7 +8,7 @@ INSTEAD абсолютно бесплатен, а его исходные код
 - - - - -
 **Внимание!** Если вам недоступен sourceforge.net, вы можете воспользоваться
 зеркалом: 
-[http://vvb.nailedgames.com/instead-mirror](http://vvb.nailedgames.com/instead-mirror)
+[http://ifhub.ru/instead](http://ifhub.ru/instead)
 - - - - -
 
 {% else %}
@@ -23,7 +23,7 @@ INSTEAD is free and opensource software. Sources are covered by MIT license.
 <td><img src="/images/win_logo.png"/></td>
 <td>
 <a href="http://downloads.sourceforge.net/project/instead/instead/2.2.2/instead-2.2.2.exe">{%t instead-win %}</a><br>
-<a href="http://instead-launcher.googlecode.com/files/instead-launcher-0.6.1.exe">{%t instead-launcher-win %}</a><br>
+<a href="http://downloads.sourceforge.net/project/instead/instead-launcher/instead-launcher-0.6.3.exe">{%t instead-launcher-win %}</a><br>
 <a href="http://downloads.sourceforge.net/project/instead/instead/2.2.2/instead-kit-2.2.2.exe">{%t instead-kit-win %}<a>
 </td>
 <td>2.2.2</td>
@@ -100,7 +100,7 @@ INSTEAD is free and opensource software. Sources are covered by MIT license.
 <tr>
 <td><img src="/images/sources_logo.png"/></td>
 <td><a href="http://downloads.sourceforge.net/project/instead/instead/2.2.2/instead_2.2.2.tar.gz">{%t instead-sources %}</a><br>
-<a href="http://instead-launcher.googlecode.com/files/instead-launcher_0.6.1.tar.gz">{%t instead-launcher-sources %}</a></td>
+<a href="http://downloads.sourceforge.net/project/instead/instead-launcher/instead-launcher_0.6.3.tar.gz">{%t instead-launcher-sources %}</a></td>
 <td>2.2.2</td>
 </tr>
 

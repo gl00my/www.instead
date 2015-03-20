@@ -1,7 +1,7 @@
 # coding: utf-8
 # jekyll-games
 
-require 'net/http'
+require 'open-uri'
 require 'rubygems'
 require 'xmlsimple'
 
@@ -10,9 +10,7 @@ module Jekyll
 		def initialize(tag_name, text, tokens)
 			super
 			url = text
-# 'http://instead-launcher.googlecode.com/svn/pool/game_list.xml'
-			xml_data = Net::HTTP.get_response(URI.parse(url)).body
-			@data = XmlSimple.xml_in(xml_data)
+			@data = XmlSimple.xml_in(URI.parse(url).read)
 		end
 		# Gets a translation of a key according to the page.lang
 		def render(context)
