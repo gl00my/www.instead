@@ -26,4 +26,3 @@ zip или idf.
 1. [Видеоурок 1](http://www.youtube.com/watch?v=_oS1768NLjs&feature=youtu.be)
 2. [Видеоурок 2](http://www.youtube.com/watch?v=rB7uf0vpsag&feature=youtu.be)
 3. [Видеоурок 3](http://www.youtube.com/watch?v=0kqaztf_QgU&feature=youtu.be)
-
