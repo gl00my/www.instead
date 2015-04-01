@@ -24,6 +24,9 @@ links:
   - name:         Code
     url:          http://github.com/instead-hub/instead
     external:     true
+  - name:         Download
+    url:          /download
+
 pygments:         true
 permalink:        pretty
 markdown:         redcarpet

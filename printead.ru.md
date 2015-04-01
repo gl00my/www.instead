@@ -12,3 +12,4 @@ title: ПРИНТЕД
 
 1. [ПРИНТЕД #0](/printead/printead000.txt)
 2. [ПРИНТЕД #1](/printead/printead001.txt)
+3. [ПРИНТЕД #2](/printead/printead002.txt)
