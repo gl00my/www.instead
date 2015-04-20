@@ -55,7 +55,7 @@ und:
   instead-launcher-sources: INSTEAD launcher sources
   instead-gentoo: EBUILD for Gentoo
   instead-freebsd: FreeBSD port
-  instead-freebsd: OpenBSD port
+  instead-obsd: OpenBSD port
   instead-debian: Debian package
   instead-arch: INSTEAD for Arch Linux
   instead-slackware: INSTEAD for Slackware
