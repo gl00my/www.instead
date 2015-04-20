@@ -92,6 +92,12 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 </tr>
 
 <tr>
+<td><img src="/images/obsd_logo.png"/></td>
+<td><a href="http://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/games/instead/">{%t instead-obsd %}</a></td>
+<td>2.2.3</td>
+</tr>
+
+<tr>
 <td><img src="/images/gentoo_logo.png"/></td>
 <td><a href="http://instead.syscall.ru/wiki/ru/install/gentoo">{%t instead-gentoo %}</a></td>
 <td>???</td>

@@ -21,6 +21,7 @@ ru:
   instead-launcher-sources: Пакет с исходным кодом INSTEAD launcher
   instead-gentoo: EBUILD для Gentoo
   instead-freebsd: Порт для FreeBSD
+  instead-obsd: Порт для OpenBSD
   instead-debian: Пакет для Debian
   instead-ubuntu: Пакеты для Ubuntu
   instead-arch: INSTEAD для Arch Linux
@@ -54,6 +55,7 @@ und:
   instead-launcher-sources: INSTEAD launcher sources
   instead-gentoo: EBUILD for Gentoo
   instead-freebsd: FreeBSD port
+  instead-freebsd: OpenBSD port
   instead-debian: Debian package
   instead-arch: INSTEAD for Arch Linux
   instead-slackware: INSTEAD for Slackware
