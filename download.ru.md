@@ -22,17 +22,17 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 <tr>
 <td><img src="/images/win_logo.png"/></td>
 <td>
-<a href="http://downloads.sourceforge.net/project/instead/instead/2.2.3/instead-2.2.3.exe">{%t instead-win %}</a><br>
+<a href="http://downloads.sourceforge.net/project/instead/instead/2.2.4/instead-2.2.4.exe">{%t instead-win %}</a><br>
 <a href="http://downloads.sourceforge.net/project/instead/instead-launcher/instead-launcher-0.6.3.exe">{%t instead-launcher-win %}</a><br>
-<a href="http://downloads.sourceforge.net/project/instead/instead/2.2.3/instead-kit-2.2.3.exe">{%t instead-kit-win %}<a>
+<a href="http://downloads.sourceforge.net/project/instead/instead/2.2.4/instead-kit-2.2.4.exe">{%t instead-kit-win %}<a>
 </td>
-<td>2.2.3</td>
+<td>2.2.4</td>
 </tr>
 
 <tr>
 <td><img src="/images/windows_mobile_logo.png"/></td>
-<td><a href="http://downloads.sourceforge.net/project/instead/instead/2.2.3/instead-2.2.3-wince.zip">{%t instead-wince %}</a></td>
-<td>2.2.3</td>
+<td><a href="http://downloads.sourceforge.net/project/instead/instead/2.2.4/instead-2.2.4-wince.zip">{%t instead-wince %}</a></td>
+<td>2.2.4</td>
 </tr>
 
 
@@ -63,8 +63,8 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 
 <tr>
 <td><img src="/images/s60_logo.png"/></td>
-<td><a href="http://downloads.sourceforge.net/project/instead/instead/2.2.3/instead-2.2.3.sis">{%t instead-s60 %}</a></td>
-<td>2.2.3</td>
+<td><a href="http://downloads.sourceforge.net/project/instead/instead/2.2.4/instead-2.2.4.sis">{%t instead-s60 %}</a></td>
+<td>2.2.4</td>
 </tr>
 
 <tr>
@@ -105,14 +105,14 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 
 <tr>
 <td><img src="/images/sources_logo.png"/></td>
-<td><a href="http://downloads.sourceforge.net/project/instead/instead/2.2.3/instead_2.2.3.tar.gz">{%t instead-sources %}</a><br>
+<td><a href="http://downloads.sourceforge.net/project/instead/instead/2.2.4/instead_2.2.4.tar.gz">{%t instead-sources %}</a><br>
 <a href="http://downloads.sourceforge.net/project/instead/instead-launcher/instead-launcher_0.6.3.tar.gz">{%t instead-launcher-sources %}</a></td>
-<td>2.2.3</td>
+<td>2.2.4</td>
 </tr>
 
 <tr>
 <td></td>
-<td><a href="http://sourceforge.net/projects/instead/files/instead/2.2.3/">{%t instead-others %}</td>
-<td>2.2.3</td>
+<td><a href="http://sourceforge.net/projects/instead/files/instead/2.2.4/">{%t instead-others %}</td>
+<td>2.2.4</td>
 </tr>
 </table>
