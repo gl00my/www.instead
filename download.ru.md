@@ -38,8 +38,8 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 
 <tr>
 <td><img src="/images/mac_logo.png"/></td>
-<td><a href="http://downloads.sourceforge.net/project/instead/instead/2.2.4/Instead-2.2.4.dmg">{%t instead-osx %}</a></td>
-<td>2.2.4</td>
+<td><a href="http://downloads.sourceforge.net/project/instead/instead/2.2.5/Instead-2.2.5.dmg">{%t instead-osx %}</a></td>
+<td>2.2.5</td>
 </tr>
 
 <tr>
@@ -88,7 +88,7 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 <tr>
 <td><img src="/images/freebsd_logo.png"/></td>
 <td><a href="http://svnweb.freebsd.org/ports/head/games/instead/">{%t instead-freebsd %}</a></td>
-<td>2.2.4</td>
+<td>2.2.5</td>
 </tr>
 
 <tr>
