@@ -15,7 +15,7 @@ ru:
   instead-launcher-win: Установщик INSTEAD launcher для Windows
   instead-wince: Пакет для Windows CE
   instead-android-market: INSTEAD на Android Market
-  instead-android: INSTEAD для Android без рекламы Market
+  instead-android: INSTEAD для Android (.apk)
   instead-kit-win: INSTEAD Kit (INSTEAD + launcher) архив
   instead-sources: Пакет с исходным кодом INSTEAD
   instead-launcher-sources: Пакет с исходным кодом INSTEAD launcher
@@ -49,7 +49,7 @@ und:
   instead-launcher-win: INSTEAD launcher for Windows
   instead-wince: INSTEAD for Windows CE
   instead-android-market: INSTEAD on Android Market
-  instead-android: INSTEAD without Ads
+  instead-android: INSTEAD (.apk)
   instead-kit-win: INSTEAD Kit (INSTEAD + INSTEAD launcher)
   instead-sources: INSTEAD sources
   instead-launcher-sources: INSTEAD launcher sources
