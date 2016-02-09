@@ -19,12 +19,30 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 {% endif %}
 <table class='download' align="center">
 
+{% if page.lang == 'ru' %}
+<tr>
+<td><img src="/images/insteadman-logo.png"></td>
+<td>
+<a href="http://instead.club">{%t insteadman %}</a><br>
+</td>
+<td>2.3.0</td>
+</tr>
+{% else %}
+<tr>
+<td><img src="/images/insteadman-logo.png"></td>
+<td>
+<a href="http://instead.club/en">{%t insteadman %}</a><br>
+</td>
+<td>2.3.0</td>
+</tr>
+{% endif %}
+
 <tr>
 <td><img src="/images/win_logo.png"/></td>
 <td>
+<a href="http://downloads.sourceforge.net/project/instead/instead/2.3.0/instead-kit-2.3.0.exe">{%t instead-kit-win %}<a>
 <a href="http://downloads.sourceforge.net/project/instead/instead/2.3.0/instead-2.3.0.exe">{%t instead-win %}</a><br>
 <a href="http://downloads.sourceforge.net/project/instead/instead-launcher/instead-launcher-0.6.3.exe">{%t instead-launcher-win %}</a><br>
-<a href="http://downloads.sourceforge.net/project/instead/instead/2.3.0/instead-kit-2.3.0.exe">{%t instead-kit-win %}<a>
 </td>
 <td>2.3.0</td>
 </tr>
@@ -70,13 +88,13 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 <tr>
 <td><img src="/images/arch_logo.png"/></td>
 <td><a href="http://www.archlinux.org/packages/community/x86_64/instead/">{%t instead-arch %}</a></td>
-<td>2.2.7</td>
+<td>2.3.0</td>
 </tr>
 
 <tr>
 <td><img src="/images/slackware_logo.png"/></td>
 <td><a href="http://slackbuilds.org/repository/14.1/games/instead/">{%t instead-slackware %}</a></td>
-<td>2.2.7</td>
+<td>2.3.0</td>
 </tr>
 
 <tr>
@@ -88,13 +106,13 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 <tr>
 <td><img src="/images/freebsd_logo.png"/></td>
 <td><a href="http://svnweb.freebsd.org/ports/head/games/instead/">{%t instead-freebsd %}</a></td>
-<td>2.2.7</td>
+<td>2.3.0</td>
 </tr>
 
 <tr>
 <td><img src="/images/obsd_logo.png"/></td>
 <td><a href="http://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/games/instead/">{%t instead-obsd %}</a></td>
-<td>2.2.3</td>
+<td>2.3.0</td>
 </tr>
 
 <tr>

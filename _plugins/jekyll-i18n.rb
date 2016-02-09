@@ -26,24 +26,64 @@ module Jekyll
 				I18n.t(@text.strip)
 			end
 		end
-		
 	end
 	
 	# Necessary filter when you need multi-language site variables (e.g. menus)
 	module TranslateFilter
-		
 		def translate(input)
 			I18n.locale = @context.registers[:page]['lang'].intern
 			I18n.t(input.strip)
 		end
-		
 		alias_method :t, :translate
-		
+
 	end
 	
+	class Document
+		# Enhances original by applying /LANG/URL.
+
+		alias_method :_post_read, :post_read
+		
+		# Enhances the original method to extract the language from the extension.
+		# Then adds it as a tag
+		def post_read
+#			puts path
+			rv = _post_read()
+			lang = (basename.split '.')[1]
+			if lang == 'mul' or I18n.available_locales.include? lang.intern
+				data['lang'] = lang
+			else
+				data['lang'] = 'und' if not self.is_a? Jekyll::Layout
+			end
+			# Add the language as a tag.
+			data['tags'] ||= []
+			data['tags'] << data['lang']
+#			puts lang
+			rv
+		end
+		alias_method :_url, :url
+		# Enhances original by applying /LANG/URL.
+		def url			
+			@url = _url
+			lang = data['lang']
+
+			# For 'mul' we generate multiple pages — inappropriate to have a url here.
+			# For 'und' there is no language — return.
+			if lang == 'mul' or lang == 'und'or lang == nil
+				return @url
+			end
+			
+			# Gets filename
+			name = Pathname.new(@url).basename.to_s
+			# this could be bad if the directory has the same name as the file.
+			# XXX substitute the last occurance in a string, not the first.
+			nameWithoutLang = @url.sub(name, name.sub('.'+lang, ''))
+			nameWithoutLang == '/index/' ? "/#{lang}/index.html" : "/#{lang}/"+nameWithoutLang
+		end
+	end
+
 	module Convertible
 		alias_method :_read_yaml, :read_yaml
-		
+
 		# Enhances the original method to extract the language from the extension.
 		# Then adds it as a tag
 		def read_yaml(base, name)
@@ -51,7 +91,7 @@ module Jekyll
 			
 			# Infer language from first dot in filename.
 			lang = (name.split '.')[1]
-			
+
 			if lang == 'mul' or I18n.available_locales.include? lang.intern
 				data['lang'] = lang
 			else
@@ -74,14 +114,12 @@ module Jekyll
 			info[:registers][:page]['lang'] = data['lang']
 			_render_liquid(content, payload, info)
 		end
-		
 	end
-	
+
 	class Page
-		
 		alias_method :_url, :url
 		# Enhances original by applying /LANG/URL.
-		def url			
+		def url
 			@url = _url
 			lang = data['lang']
 			# For 'mul' we generate multiple pages — inappropriate to have a url here.
@@ -97,31 +135,6 @@ module Jekyll
 			nameWithoutLang = @url.sub(name, name.sub('.'+lang, ''))
 			nameWithoutLang == '/index/' ? "/#{lang}/index.html" : "/#{lang}/"+nameWithoutLang
 		end
-		
-	end
-	
-	# XXX this could probably be made more Ruby-like.
-	class Post
-	
-		alias_method :_url, :url
-		# Enhances original by applying /LANG/URL
-		def url			
-			@url = _url
-			lang = data['lang']
-			# For 'mul' we generate multiple pages — inappropriate to have a url here
-			# For 'und' there is no language — return
-			if lang == 'mul' or lang == 'und'
-				return @url
-			end
-			
-			# Gets filename
-			name = Pathname.new(@url).basename.to_s
-			# this could be bad if the directory has the same name as the file
-			# XXX substitute the last occurance in a string, not the first
-			nameWithoutLang = @url.sub(name, name.sub('.'+lang, ''))
-			nameWithoutLang == '/index/' ? "/#{lang}/index.html" : "/#{lang}"+nameWithoutLang
-		end
-	
 	end
 end
 

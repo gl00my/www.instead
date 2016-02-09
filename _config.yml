@@ -1,11 +1,11 @@
 title:            INSTEAD
 description:      Simple Text Adventure, The Interpreter
-url:              http://instead.syscall.ru
+url:              //instead.syscall.ru
 signoff:          Peter Kosyh
 disqus_shortname: instead
 # disqus comment thread for post header options. ( leave blank if unwanted. )
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+# facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+# google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
   - name:         Blog
@@ -22,12 +22,12 @@ links:
   - name:         Doc
     url:          /doc
   - name:         Code
-    url:          http://github.com/instead-hub/instead
+    url:          //github.com/instead-hub/instead
     external:     true
   - name:         Download
     url:          /download
 
-pygments:         true
+highlighter:         true
 permalink:        pretty
 markdown:         redcarpet
 redcarpet:
