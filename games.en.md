@@ -5,6 +5,7 @@ title: Games
 ## Starting game
 
 To automatical game downloading and launching you may use **instead-launcher**.
+It can be found in the [download](http://instead.syscall.ru/en/download) area.
 If you do not want to use it, you may download and install games manually.
 
 > To launch game you must download INSTEAD first. Just press red Download button 
@@ -27,6 +28,6 @@ Some games can be found here.
 ## Unofficial games repository
 
 Here are a lot of games from Unofficial repository. You may look on screenshots by
-pressing on they titles.
+pressing on their titles.
 
 {% games http://instead-games.ru/xml.php %}

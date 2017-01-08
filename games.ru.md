@@ -34,3 +34,7 @@ title: Игры
 название игры.
 
 {% games http://instead-games.ru/xml.php %}
+
+## web версия
+
+Поиграть в некоторые игры, вы можете прямо сейчас: [https://instead-hub.github.io/instead-js/](https://instead-hub.github.io/instead-js/)
