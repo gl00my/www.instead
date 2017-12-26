@@ -1,7 +1,7 @@
 ---
 layout: post
 title: INSTEAD-JS и PLAINSTEAD
-date: 2017-01-08 10:22:00
+date: 2017-01-08 7:22:00
 disqus: y
 ---
 Merry Christmas!

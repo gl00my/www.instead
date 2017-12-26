@@ -38,7 +38,9 @@ title: О проекте
 
 Вы можете связаться с автором INSTEAD (Петром Косых) по почте: gl00my [at] mail.ru
 
-Jabber конференция разработчиков: [instead@conference.jabber.ru](http://chat.andreymal.org/?join=instead@conference.jabber.ru)
+Официальный чат на gitter: [![Gitter](https://badges.gitter.im/instead-hub/instead.svg)](https://gitter.im/instead-hub/instead?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+Неофициальная Jabber конференция: [instead@conference.jabber.ru](http://chat.andreymal.org/?join=instead@conference.jabber.ru)
 
 [wiki]: http://ru.wikipedia.org/wiki/INSTEAD "Статья INSTEAD на Wikipedia"
 
@@ -50,10 +52,15 @@ Jabber конференция разработчиков: [instead@conference.ja
 2. [Подкаст 2](/podcasts/podcast2.ogg)
 3. [Подкаст 3](/podcasts/podcast3.ogg)
 4. [Подкаст 4](/podcasts/podcast_04.ogg)
+5. [Подкаст 5](/podcasts/podcast_05.ogg)
 
 И прочитать статью о том, [как все начиналось](http://instead.syscall.ru/ru/2010/05/09/history/).
 
 ## ПРИНТЕД
 
 Также, вы можете посмотреть выпуски сборников статей и новостей
-об INSTEAD -- [ПРИНТЕД](/ru/printead/).
+об INSTEAD (и не только!)  -- [ПРИНТЕД](http://printed.syscall.ru).
+
+## Клуб INSTEAD
+
+А еще, вы можете заглянуть в теплый ламповый [клуб INSTEAD](/ru/club/).

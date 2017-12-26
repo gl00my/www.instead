@@ -28,4 +28,6 @@ Of course you can just see some [screenshots](/screenshots).
 
 You can contact with INSTEAD author (Peter Kosyh) via e-mail: gl00my [at] mail.ru
 
-Jabber conference: instead@conference.jabber.ru
+Join chat at gitter: [![Gitter](https://badges.gitter.im/instead-hub/instead.svg)](https://gitter.im/instead-hub/instead?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+Unofficial jabber conference: [instead@conference.jabber.ru](http://chat.andreymal.org/?join=instead@conference.jabber.ru)

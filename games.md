@@ -32,6 +32,6 @@ pressing on they titles.
 
 {% games http://instead-games.ru/xml.php %}
 
-## web version
+## WEB version
 
-You can try some games just in your browser: [https://instead-hub.github.io/instead-js/](https://instead-hub.github.io/instead-js/)
+You can try some games just in your [browser](https://instead-hub.github.io/instead-js/)

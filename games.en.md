@@ -31,3 +31,7 @@ Here are a lot of games from Unofficial repository. You may look on screenshots 
 pressing on their titles.
 
 {% games http://instead-games.ru/xml.php %}
+
+## WEB version
+
+You can try some games just in your [browser](https://instead-hub.github.io/instead-js/)

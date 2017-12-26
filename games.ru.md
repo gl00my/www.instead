@@ -35,6 +35,6 @@ title: Игры
 
 {% games http://instead-games.ru/xml.php %}
 
-## web версия
+## WEB версия
 
-Поиграть в некоторые игры, вы можете прямо сейчас: [https://instead-hub.github.io/instead-js/](https://instead-hub.github.io/instead-js/)
+Поиграть в некоторые игры, вы можете прямо [сейчас](http://instead-games.ru/index.php?online=1)

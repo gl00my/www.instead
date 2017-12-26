@@ -10,7 +10,18 @@ zip или idf.
 ## Документация для разработчика
 
 Документация для разработчиков игр поставляется вместе с дистрибутивом INSTEAD в соответствующем
-каталоге. Кроме того, эта документация доступна online.
+каталоге (doc/). Кроме того, эта документация доступна online.
+
+### Актуальная документация
+
+* [Документация по STEAD3](https://github.com/instead-hub/instead/blob/master/doc/stead3.md)
+* [Документация по STEAD3 (pdf)](http://club.syscall.ru/s/download/stead3.pdf)
+
+### Старая документация по STEAD2
+
+Кроме STEAD3, INSTEAD поддерживает старое API, которое называется STEAD2. 
+Вы можете писать игры как на STEAD3, так и на STEAD2. Если вас интересует старое API, 
+то ниже приводятся ссылки на документацию.
 
 * [WIKI](http://instead.syscall.ru/wiki/ru/start)
 * [Документация для разработчиков игр (от автора INSTEAD)](http://instead.syscall.ru/wiki/ru/gamedev/documentation)
@@ -18,11 +29,3 @@ zip или idf.
 * [Описание модулей (pdf)](http://sourceforge.net/projects/instead/files/instead/docs/instead-modules.pdf/download)
 * [Вводный курс на ifiction.ru](http://forum.ifiction.ru/viewtopic.php?id=1867)
 * [О том как быстро начать писать игру](http://instead.syscall.ru/wiki/ru/gamedev/quickstart)
-
-## Видеоуроки
-
-Вы можете ознакомиться с видеоуроками, они могут помочь на начальном этапе.
-
-1. [Видеоурок 1](http://www.youtube.com/watch?v=_oS1768NLjs&feature=youtu.be)
-2. [Видеоурок 2](http://www.youtube.com/watch?v=rB7uf0vpsag&feature=youtu.be)
-3. [Видеоурок 3](http://www.youtube.com/watch?v=0kqaztf_QgU&feature=youtu.be)

@@ -8,7 +8,7 @@ INSTEAD абсолютно бесплатен, а его исходные код
 - - - - -
 **Внимание!** Если вам недоступен sourceforge.net, вы можете воспользоваться
 зеркалом: 
-[http://ifhub.ru/instead](http://ifhub.ru/instead)
+[http://instead.syscall.ru/instead](http://instead.syscall.ru/instead)
 - - - - -
 
 {% else %}
@@ -39,81 +39,91 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 {% endif %}
 
 <tr>
+<td><img src="/images/html5_logo.png"/></td>
+<td>
+<a href="http://instead-games.ru/index.php?online=1">{%t instead-js %}(JS)</a><br>
+<a href="http://syscall.ru/games">{%t instead-js %}(EMSCRIPTEN)</a>
+<a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/instead-em-3.1.2.zip">{%t instead-em %}</a><br>
+</td>
+<td>3.1.2</td>
+</tr>
+
+<tr>
 <td><img src="/images/win_logo.png"/></td>
 <td>
-<a href="http://downloads.sourceforge.net/project/instead/instead/2.4.1/instead-kit-2.4.1.exe">{%t instead-kit-win %}<a>
-<a href="http://downloads.sourceforge.net/project/instead/instead/2.4.1/instead-2.4.1.exe">{%t instead-win %}</a><br>
-<a href="http://downloads.sourceforge.net/project/instead/instead-launcher/instead-launcher-0.6.3.exe">{%t instead-launcher-win %}</a><br>
+<a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/instead-kit-3.1.2.exe">{%t instead-kit-win %}</a><br>
+<a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/instead-3.1.2.exe">{%t instead-win %}</a><br>
+<a href="http://downloads.sourceforge.net/project/instead/instead-launcher/instead-launcher-0.7.0.exe">{%t instead-launcher-win %}</a><br>
 </td>
-<td>2.4.1</td>
+<td>3.1.2</td>
 </tr>
 
 <tr>
 <td><img src="/images/windows_mobile_logo.png"/></td>
-<td><a href="http://downloads.sourceforge.net/project/instead/instead/2.4.1/instead-2.4.1-wince.zip">{%t instead-wince %}</a></td>
-<td>2.4.1</td>
+<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/instead-3.1.2-wince.zip">{%t instead-wince %}</a></td>
+<td>3.1.2</td>
 </tr>
 
 
 <tr>
 <td><img src="/images/mac_logo.png"/></td>
-<td><a href="http://downloads.sourceforge.net/project/instead/instead/2.4.1/Instead-2.4.1.dmg">{%t instead-osx %}</a></td>
-<td>2.4.1</td>
+<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/Instead-3.1.2.dmg">{%t instead-osx %}</a></td>
+<td>3.1.2</td>
 </tr>
 
 <tr>
 <td><img src="/images/ios_logo.png"/></td>
-<td><a href="http://downloads.sourceforge.net/project/instead/instead/2.4.1/INSTEAD-2.4.1.ipa">{%t instead-ios %}</a></td>
-<td>2.4.1</td>
+<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/INSTEAD-3.1.2.ipa">{%t instead-ios %}</a></td>
+<td>3.1.2</td>
 </tr>
 
 <tr>
 <td><img src="/images/ubuntu_logo.png"/></td>
 <td><a href="http://launchpad.net/~instead/+archive/ppa">{%t instead-ubuntu %}</a></td>
-<td>2.3.0</td>
+<td>3.1.2</td>
 </tr>
 
 <tr>
 <td><img src="/images/android_logo.png"/></td>
 <td><a href="https://play.google.com/store/apps/details?id=com.nlbhub.instead.launcher">{%t instead-android-market %}</a><br>
-<a href="http://nlbproject.com/dist/instead-ng-2.4.1.apk">{%t instead-android %}</a></td>
-<td>2.4.1<br/>2.4.1</td>
+<a href="http://nlbproject.com/dist/instead-ng-3.1.2.apk">{%t instead-android %}</a></td>
+<td>3.1.2<br/>3.1.2</td>
 </tr>
 
 <tr>
 <td><img src="/images/s60_logo.png"/></td>
-<td><a href="http://downloads.sourceforge.net/project/instead/instead/2.4.1/instead-2.4.1.sis">{%t instead-s60 %}</a></td>
-<td>2.4.1</td>
+<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/instead-3.1.2.sis">{%t instead-s60 %}</a></td>
+<td>3.1.2</td>
 </tr>
 
 <tr>
 <td><img src="/images/arch_logo.png"/></td>
 <td><a href="http://www.archlinux.org/packages/community/x86_64/instead/">{%t instead-arch %}</a></td>
-<td>2.4.1</td>
+<td>3.1.2</td>
 </tr>
 
 <tr>
 <td><img src="/images/slackware_logo.png"/></td>
-<td><a href="http://spline.rooker.ru/instead.tar.gz">{%t instead-slackware %}</a></td>
-<td>2.4.1</td>
+<td><a href="https://slackbuilds.org/repository/14.2/games/instead/">{%t instead-slackware %}</a></td>
+<td>3.1.2</td>
 </tr>
 
 <tr>
 <td><img src="/images/debian_logo.png"/></td>
 <td><a href="https://packages.debian.org/unstable/instead">{%t instead-debian %}</a></td>
-<td>1.9.1</td>
+<td>3.1.2</td>
 </tr>
 
 <tr>
 <td><img src="/images/freebsd_logo.png"/></td>
 <td><a href="http://svnweb.freebsd.org/ports/head/games/instead/">{%t instead-freebsd %}</a></td>
-<td>2.4.1</td>
+<td>3.1.2</td>
 </tr>
 
 <tr>
 <td><img src="/images/obsd_logo.png"/></td>
 <td><a href="http://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/games/instead/">{%t instead-obsd %}</a></td>
-<td>2.3.0</td>
+<td>3.0.1</td>
 </tr>
 
 <tr>
@@ -124,15 +134,15 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 
 <tr>
 <td><img src="/images/sources_logo.png"/></td>
-<td><a href="http://downloads.sourceforge.net/project/instead/instead/2.4.1/instead_2.4.1.tar.gz">{%t instead-sources %}</a><br>
-<a href="http://downloads.sourceforge.net/project/instead/instead-launcher/instead-launcher_0.6.3.tar.gz">{%t instead-launcher-sources %}</a></td>
-<td>2.4.1</td>
+<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/instead_3.1.2.tar.gz">{%t instead-sources %}</a><br>
+<a href="http://downloads.sourceforge.net/project/instead/instead-launcher/instead-launcher_0.7.0.tar.gz">{%t instead-launcher-sources %}</a></td>
+<td>3.1.2</td>
 </tr>
 
 <tr>
 <td></td>
-<td><a href="http://sourceforge.net/projects/instead/files/instead/2.4.1/">{%t instead-others %}</td>
-<td>2.4.1</td>
+<td><a href="http://sourceforge.net/projects/instead/files/instead/3.1.2/">{%t instead-others %}</td>
+<td>3.1.2</td>
 </tr>
 
 </table>
