@@ -42,40 +42,35 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 <td><img src="/images/html5_logo.png"/></td>
 <td>
 <a href="http://instead-games.ru/index.php?online=1">{%t instead-js %}(JS)</a><br>
-<a href="http://syscall.ru/games">{%t instead-js %}(EMSCRIPTEN)</a>
-<a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/instead-em-3.1.2.zip">{%t instead-em %}</a><br>
+<a href="http://instead.itch.io">{%t instead-js %}(EMSCRIPTEN)</a><br>
+<a href="http://downloads.sourceforge.net/project/instead/instead/3.2.0/instead-em-3.2.0.zip">{%t instead-em %}</a><br>
 </td>
-<td>3.1.2</td>
+<td>3.2.0</td>
 </tr>
 
 <tr>
 <td><img src="/images/win_logo.png"/></td>
 <td>
-<a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/instead-kit-3.1.2.exe">{%t instead-kit-win %}</a><br>
-<a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/instead-3.1.2.exe">{%t instead-win %}</a><br>
+<a href="http://downloads.sourceforge.net/project/instead/instead/3.2.0/instead-kit-3.2.0.exe">{%t instead-kit-win %}</a><br>
+<a href="http://downloads.sourceforge.net/project/instead/instead/3.2.0/instead-3.2.0.exe">{%t instead-win %}</a><br>
 <a href="http://downloads.sourceforge.net/project/instead/instead-launcher/instead-launcher-0.7.0.exe">{%t instead-launcher-win %}</a><br>
 </td>
-<td>3.1.2</td>
+<td>3.2.0</td>
 </tr>
 
 <tr>
-<td><img src="/images/windows_mobile_logo.png"/></td>
-<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/instead-3.1.2-wince.zip">{%t instead-wince %}</a></td>
-<td>3.1.2</td>
+<td><img src="/images/sources_logo.png"/></td>
+<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.2.0/instead_3.2.0.tar.gz">{%t instead-sources %}</a><br>
+<a href="http://downloads.sourceforge.net/project/instead/instead-launcher/instead-launcher_0.7.0.tar.gz">{%t instead-launcher-sources %}</a></td>
+<td>3.2.0</td>
 </tr>
-
 
 <tr>
 <td><img src="/images/mac_logo.png"/></td>
-<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/Instead-3.1.2.dmg">{%t instead-osx %}</a></td>
-<td>3.1.2</td>
+<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.2.0/Instead-3.2.0.dmg">{%t instead-osx %}</a></td>
+<td>3.2.0</td>
 </tr>
 
-<tr>
-<td><img src="/images/ios_logo.png"/></td>
-<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/INSTEAD-3.1.2.ipa">{%t instead-ios %}</a></td>
-<td>3.1.2</td>
-</tr>
 
 <tr>
 <td><img src="/images/ubuntu_logo.png"/></td>
@@ -86,26 +81,26 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 <tr>
 <td><img src="/images/android_logo.png"/></td>
 <td><a href="https://play.google.com/store/apps/details?id=com.nlbhub.instead.launcher">{%t instead-android-market %}</a><br>
-<a href="http://nlbproject.com/dist/instead-ng-3.1.2.apk">{%t instead-android %}</a></td>
-<td>3.1.2<br/>3.1.2</td>
+<a href="https://nlbproject.com/dist/instead/instead-ng-3.2.0.apk">{%t instead-android %}</a></td>
+<td>3.2.0<br/>3.2.0</td>
 </tr>
 
 <tr>
 <td><img src="/images/s60_logo.png"/></td>
-<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/instead-3.1.2.sis">{%t instead-s60 %}</a></td>
-<td>3.1.2</td>
+<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.2.0/instead-3.2.0.sis">{%t instead-s60 %}</a></td>
+<td>3.2.0</td>
 </tr>
 
 <tr>
 <td><img src="/images/arch_logo.png"/></td>
-<td><a href="http://www.archlinux.org/packages/community/x86_64/instead/">{%t instead-arch %}</a></td>
-<td>3.1.2</td>
+<td><a href="https://aur.archlinux.org/packages/instead/">{%t instead-arch %}</a></td>
+<td>3.2.0</td>
 </tr>
 
 <tr>
 <td><img src="/images/slackware_logo.png"/></td>
 <td><a href="https://slackbuilds.org/repository/14.2/games/instead/">{%t instead-slackware %}</a></td>
-<td>3.1.2</td>
+<td>3.2.0</td>
 </tr>
 
 <tr>
@@ -117,7 +112,7 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 <tr>
 <td><img src="/images/freebsd_logo.png"/></td>
 <td><a href="http://svnweb.freebsd.org/ports/head/games/instead/">{%t instead-freebsd %}</a></td>
-<td>3.1.2</td>
+<td>3.2.0</td>
 </tr>
 
 <tr>
@@ -133,16 +128,29 @@ If you like INSTEAD you may <a class='donate-link' href="{% if page.lang != 'und
 </tr>
 
 <tr>
-<td><img src="/images/sources_logo.png"/></td>
-<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.1.2/instead_3.1.2.tar.gz">{%t instead-sources %}</a><br>
-<a href="http://downloads.sourceforge.net/project/instead/instead-launcher/instead-launcher_0.7.0.tar.gz">{%t instead-launcher-sources %}</a></td>
-<td>3.1.2</td>
+<td><img src="/images/sfos_logo.png"/></td>
+<td><a href="https://openrepos.net/content/gl00my/instead">{%t instead-sfos %}</a></td>
+<td>3.2.0</td>
+</tr>
+
+{% if page.lang == 'xxx' %}
+<tr>
+<td><img src="/images/ios_logo.png"/></td>
+<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.2.0/INSTEAD-3.2.0.ipa">{%t instead-ios %}</a></td>
+<td>3.2.0</td>
 </tr>
 
 <tr>
+<td><img src="/images/windows_mobile_logo.png"/></td>
+<td><a href="http://downloads.sourceforge.net/project/instead/instead/3.2.0/instead-3.2.0-wince.zip">{%t instead-wince %}</a></td>
+<td>3.2.0</td>
+</tr>
+{% endif %}
+
+<tr>
 <td></td>
-<td><a href="http://sourceforge.net/projects/instead/files/instead/3.1.2/">{%t instead-others %}</td>
-<td>3.1.2</td>
+<td><a href="http://sourceforge.net/projects/instead/files/instead/3.2.0/">{%t instead-others %}</td>
+<td>3.2.0</td>
 </tr>
 
 </table>

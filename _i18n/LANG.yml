@@ -27,6 +27,7 @@ ru:
   instead-arch: INSTEAD для Arch Linux
   instead-slackware: INSTEAD для Slackware
   instead-s60: Версия для S60
+  instead-sfos: Версия для SailfishOS
   instead-osx: Пакет для OS X
   instead-ios: Пакет для iOS (для jailbreak устройств)
   insteadman: INSTEAD менеджер + INSTEAD (Windows, Linux и OS X)
@@ -64,6 +65,7 @@ und:
   instead-slackware: INSTEAD for Slackware
   instead-ubuntu: Ubuntu packages
   instead-s60: INSTEAD for S60
+  instead-sfos: INSTEAD for SailfishOS
   instead-osx: INSTEAD for OS X
   instead-ios: INSTEAD for iOS (for jailbroken devices)
   insteadman: INSTEAD manager + INSTEAD (Windows, Linux and OS X)

@@ -25,7 +25,7 @@ title: Игры
 
 Здесь представлены только некоторые игры для INSTEAD.
 
-{% games http://instead.sourceforge.net/pool/game_list.xml %}
+{% games http://instead.syscall.ru/pool/game_list.xml %}
 
 ## Репозиторий Instead • games
 

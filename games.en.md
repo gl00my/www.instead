@@ -23,7 +23,7 @@ and press «…» button. Then select .zip file and press open.
 ## Games repositories
 
 Some games can be found here.
-{% games http://instead.sourceforge.net/pool/game_list.xml %}
+{% games http://instead.syscall.ru/pool/game_list.xml %}
 
 ## Unofficial games repository
 
